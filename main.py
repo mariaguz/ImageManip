@@ -1,7 +1,6 @@
 import glob
-import numpy as np
 from PIL import Image
-import os
+
 
 path = "M:\DOKUMENTY\KUBA HALT\sesja_na_insta"
 
@@ -48,5 +47,5 @@ for f in glob.iglob(path + "\*"):
 i = 0
 for img in images:
     i += 1
-    padding(img, i, (0, 0, 0)).save(path + "\padding_black_%d.jpg" % i)
-    padding(img, i, (255, 255, 255)).save(path + "\padding_white_%d.jpg" % i)
+    padding(img, i, (0, 0, 0)).save(path + "\JZ_black_%d.jpg" % i)
+    padding(img, i, (255, 255, 255)).save(path + "\JZ_white_%d.jpg" % i)
