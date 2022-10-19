@@ -2,7 +2,7 @@ import glob
 from PIL import Image
 
 
-path = "M:\DOKUMENTY\KUBA HALT\sesja_na_insta"
+path = "..."
 
 
 def padding(img, i, rgb):
